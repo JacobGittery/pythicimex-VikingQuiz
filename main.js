@@ -77,6 +77,7 @@ function checkAnswer(selectedAnswer) {
             document.getElementById("result").classList.add("hidden");
             document.getElementById("resultFeedback").classList.add("hidden");
             document.getElementById("quizSection").style.backgroundColor = "transparent";
+            document.getElementById("quizSection").classList.add("hidden");
         })
     }
 }
