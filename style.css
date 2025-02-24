@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "norse-bold";
+}
+
+@font-face {
+    font-family: "norse";
+    src: url("/font/norse.otf")
+}
+
+@font-face {
+    font-family: "norse-bold";
+    src: url("/font/norsebold.otf")
+}
+
+body {
+    background-image: url('img/Vikingr.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(95, 95, 95);
+}
+
+.hidden {
+    display: none; 
+}
+
+header {
+    background-color: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;   
+}
+
+footer {
+    font-size: 15px;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;   
+    position: absolute;
+    bottom: 0;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 50px;
+    height: 100px;
+    color: white;
+}
+
+h2.under {
+    margin-top: -100px;
+}
+
+h3 {
+    font-size: 50px;
+    height: 120px;
+    color: white;
+    margin-top: -50px;
+}
+
+button {
+    font-family: "norse-bold";
+    font-size: 2rem;
+    background-color: lightgray;
+    padding-inline: 5px;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    padding: 5px;
+    margin: 2.5px;
+    cursor: pointer;
+}
+
+#options{
+    margin-top: 60px;
+}
+
+.firstButton{
+    margin-top: 50px;
+}
+
+#restart{
+    font-size: 60px;
+    margin-top: -25px;
+}
+
+.firstLine{
+    padding-top: 5px;
+    width: fit-content
+}
+
+#options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quizContainer {
+    align-items: center;
+    place-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding-top: 20px;
+    padding-inline: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 65rem;
+    height: 29rem;
+}
+
+#quizSection{
+    background-color: transparent;
+}
+
+.picture{
+    width: 150px;
+    height: 150px;
+    margin: 2px;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    body{
+        background-image: url('img/Vikingr-edit.png');
+        background-position: center;
+        background-position-y: 20px;
+        background-repeat: no-repeat;
+    }
+
+    h2 {
+        font-size: 40px;
+        margin-bottom: 100px;
+    }
+    h3 {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+
+    button {
+        font-size: 1.3rem;
+        padding: 20px;
+        max-width: 250px;
+    }
+
+    .quizContainer {
+        width: 100%;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    
+    #quizSection {
+        background-color: none;
+    }
+
+    .mobile{
+        background-color: none;
+    }
+
+    .picture {
+        width: 135px;
+        height: 135px;
+    }
+}
