@@ -10,7 +10,7 @@ const allQuizzes = [
     [
         { question: "What is the name of the god of oceans and fishing?", options: ["Tyr", "Njord", "Jörmundgandr"], answer: "Njord"},
         { question: "What are the names of Odins two ravens?", options: ["Geri and Freki", "Mumin and Hurin", "Hugin and Munin"], answer: "Hugin and Munin"},
-        { question: "Who created Mjolnir?", options: ["Thor", "Skrýmir", "Sindri"], answer: "Sindri"},
+        { question: "Who created Mjolnir?", options: ["Thor and Odin", "Skrýmir and Mímir", "Sindri and Brokkr"], answer: "Sindri and Brokkr"},
         { question: "Who was the first being in existance?", options: ["Odin", "Ymir", "Fenrir"], answer: "Ymir"},
         { question: "What is the name of the event that brings about the end of the world?", options: ["Ragnarok", "Hjaðningavíg", "Æsir–Vanir War"], answer: "Ragnarok"},
         { question: "Which creature pulls Thor's chariot?", options: ["Wolves", "Goats", "Boars"], answer: "Goats"}
